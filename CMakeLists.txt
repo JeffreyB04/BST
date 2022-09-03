@@ -3,4 +3,4 @@ project(BST)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(BST main.cpp Nodo.h Nodo.cpp)
+add_executable(BST main.cpp Nodo.h Nodo.cpp BST.cpp BST.h)

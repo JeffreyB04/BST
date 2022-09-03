@@ -61,6 +61,12 @@ build CMakeFiles/BST.dir/Nodo.cpp.obj: CXX_COMPILER__BST_Debug C$:/Users/jeffr/C
   OBJECT_DIR = CMakeFiles\BST.dir
   OBJECT_FILE_DIR = CMakeFiles\BST.dir
 
+build CMakeFiles/BST.dir/BST.cpp.obj: CXX_COMPILER__BST_Debug C$:/Users/jeffr/CLionProjects/BST/BST.cpp || cmake_object_order_depends_target_BST
+  DEP_FILE = CMakeFiles\BST.dir\BST.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\BST.dir
+  OBJECT_FILE_DIR = CMakeFiles\BST.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BST
@@ -69,7 +75,7 @@ build CMakeFiles/BST.dir/Nodo.cpp.obj: CXX_COMPILER__BST_Debug C$:/Users/jeffr/C
 #############################################
 # Link the executable BST.exe
 
-build BST.exe: CXX_EXECUTABLE_LINKER__BST_Debug CMakeFiles/BST.dir/main.cpp.obj CMakeFiles/BST.dir/Nodo.cpp.obj
+build BST.exe: CXX_EXECUTABLE_LINKER__BST_Debug CMakeFiles/BST.dir/main.cpp.obj CMakeFiles/BST.dir/Nodo.cpp.obj CMakeFiles/BST.dir/BST.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BST.dir
